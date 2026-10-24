@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: crop-yield-forecast-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
